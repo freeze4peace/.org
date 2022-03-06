@@ -1,9 +1,10 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import downloadBtn from "../images/download-btn.png";
 
 export default function Navbar() {
   return (
-    <div className="sticky bg-white shadow">
+    <div className="sticky mx-auto bg-white shadow">
       <div className="px-4 mx-auto max-w-7xl sm:px-6">
         <div className="flex items-center justify-center py-14 md:justify-start md:space-x-10">
           <StaticImage
@@ -37,6 +38,9 @@ export default function Navbar() {
             Freeze for peace
           </nav>
           <div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
+            <button className="focus:bg-transparent">
+              <img src={downloadBtn} />
+            </button>
             {/* <a
                 href="#"
                 className="text-base font-medium text-gray-500 whitespace-nowrap hover:text-gray-900"

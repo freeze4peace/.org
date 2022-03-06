@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function Hero() {
   return (
-    <main className="lg:relative">
+    <main className="mx-auto lg:relative max-w-7xl">
       <div className="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-24 lg:text-left">
         <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
           <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
