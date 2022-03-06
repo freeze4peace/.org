@@ -1,11 +1,12 @@
 import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 // import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import { Carousel } from "react-responsive-carousel";
 
 export default function Hero() {
   return (
     <main className="lg:relative">
-      <div className="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-48 lg:text-left">
+      <div className="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-24 lg:text-left">
         <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
           <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
             <span className="block xl:inline">Data to enrich your</span>{" "}
@@ -38,11 +39,14 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="relative w-full bg-red-500 h-96 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-        <img
-          className="absolute inset-0 object-cover w-full h-full"
-          src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
-          alt=""
+      <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+        <StaticImage
+          src="../images/peace.png"
+          alt="Freeze for peace logo"
+          placeholder="blurred"
+          quality="100"
+          className="inset-0 object-cover w-full h-full"
+          backgroundColor="transparent"
         />
         {/* <Carousel
           infiniteLoop="true"

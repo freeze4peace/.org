@@ -11,7 +11,7 @@ export default function Navbar() {
             alt="Freeze for peace logo"
             placeholder="blurred"
             quality="100"
-            className="absolute w-40 top-1 md:hidden"
+            className="absolute w-48 top-1 md:hidden"
             backgroundColor="transparent"
           />
           <div className="justify-start hidden md:flex md:w-0 md:flex-1">
