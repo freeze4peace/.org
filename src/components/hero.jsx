@@ -46,10 +46,9 @@ export default function Hero() {
         /> */}
         <Carousel
           infiniteLoop="true"
-          autoPlay="true"
-          showThumbs="false"
-          showStatus="false"
-          showIndicators="false"
+          autoPlay={true}
+          showStatus={false}
+          showThumbs={false}
         >
           <img src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" />
           <img src="https://images.unsplash.com/photo-1640622307985-eaa37b36077f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" />
