@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function Navbar() {
   return (
-    <div className="relative bg-white shadow">
+    <div className="sticky bg-white shadow">
       <div className="px-4 mx-auto max-w-7xl sm:px-6">
         <div className="flex items-center justify-between py-14 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -12,6 +12,8 @@ export default function Navbar() {
               <StaticImage
                 src="../images/logo.svg"
                 alt="Freeze for peace logo"
+                placeholder="blurred"
+                quality="100"
                 className="absolute w-24 top-1"
                 backgroundColor="transparent"
               />
