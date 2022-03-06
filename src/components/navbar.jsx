@@ -5,10 +5,18 @@ export default function Navbar() {
   return (
     <div className="sticky bg-white shadow">
       <div className="px-4 mx-auto max-w-7xl sm:px-6">
-        <div className="flex items-center justify-between py-14 md:justify-start md:space-x-10">
-          <div className="flex justify-start lg:w-0 lg:flex-1">
+        <div className="flex items-center justify-center py-14 md:justify-start md:space-x-10">
+          <StaticImage
+            src="../images/mobile-logo.svg"
+            alt="Freeze for peace logo"
+            placeholder="blurred"
+            quality="100"
+            className="absolute w-40 top-1 md:hidden"
+            backgroundColor="transparent"
+          />
+          <div className="justify-start hidden md:flex md:w-0 md:flex-1">
             <a href="#">
-              <span className="sr-only">Workflow</span>
+              <span className="sr-only">Freeze for peace</span>
               <StaticImage
                 src="../images/logo.svg"
                 alt="Freeze for peace logo"

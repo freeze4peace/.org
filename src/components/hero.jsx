@@ -1,6 +1,6 @@
 import * as React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import { Carousel } from "react-responsive-carousel";
 
 export default function Hero() {
   return (
@@ -38,13 +38,13 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-        {/* <img
+      <div className="relative w-full bg-red-500 h-96 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+        <img
           className="absolute inset-0 object-cover w-full h-full"
           src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
           alt=""
-        /> */}
-        <Carousel
+        />
+        {/* <Carousel
           infiniteLoop="true"
           autoPlay={true}
           showStatus={false}
@@ -53,7 +53,7 @@ export default function Hero() {
           <img src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" />
           <img src="https://images.unsplash.com/photo-1640622307985-eaa37b36077f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" />
           <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" />
-        </Carousel>
+        </Carousel> */}
       </div>
     </main>
   );
