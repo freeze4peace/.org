@@ -18,7 +18,7 @@
     "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^1.0.6",
     "autoprefixer": "^10.4.2",
-    "gatsby": "^4.9.0",
+    "gatsby": "^4.9.1",
     "gatsby-plugin-image": "^2.9.0",
     "gatsby-plugin-postcss": "^5.9.0",
     "gatsby-plugin-sharp": "^4.9.0",
