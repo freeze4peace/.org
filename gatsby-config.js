@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: ``,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Freeze for peace`,
+    siteUrl: `https://freezeforpeace.org`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
