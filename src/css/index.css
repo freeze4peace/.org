@@ -7,3 +7,12 @@
 .recursive-font {
   font-family: "Recursive", sans-serif;
 }
+
+.button-bg {
+  background-image: url("../images/button-bg.svg");
+  @apply bg-contain bg-no-repeat bg-center;
+}
+
+.custom-txt-shadow {
+  text-shadow: -2px -2px #000, 2px 2px #000, -2px 2px #000, 2px -2px #000;
+}
