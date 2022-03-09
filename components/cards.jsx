@@ -1,4 +1,3 @@
-import * as React from "react";
 import StatBlock from "./statBlock";
 export default function Cards() {
   return (

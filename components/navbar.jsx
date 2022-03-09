@@ -1,30 +1,29 @@
-import * as React from "react";
-import { StaticImage } from "gatsby-plugin-image";
+// import { StaticImage } from "gatsby-plugin-image";
+import Image from "next/image";
 import downloadBtn from "../images/download-btn.png";
+import logoImage from "../images/logo.svg";
+import mobileLogoImage from "../images/mobile-logo.svg";
 
 export default function Navbar() {
   return (
     <div className="sticky mx-auto bg-white shadow">
       <div className="px-4 mx-auto max-w-7xl sm:px-6">
-        <div className="flex items-center justify-center py-14 md:justify-start md:space-x-10">
-          <StaticImage
-            src="../images/mobile-logo.svg"
-            alt="Freeze for peace logo"
-            placeholder="blurred"
-            quality="100"
-            className="absolute w-48 top-1 md:hidden"
-            backgroundColor="transparent"
-          />
+        <div className="flex items-center justify-center py-4 md:justify-start md:space-x-10">
+          <div className="md:hidden">
+            <Image
+              src={mobileLogoImage}
+              alt="Freeze for peace logo"
+              className="absolute w-48 top-1"
+            />
+          </div>
+
           <div className="justify-start hidden md:flex md:w-0 md:flex-1">
             <a href="#">
               <span className="sr-only">Freeze for peace</span>
-              <StaticImage
-                src="../images/logo.svg"
+              <Image
+                src={logoImage}
                 alt="Freeze for peace logo"
-                placeholder="blurred"
-                quality="100"
                 className="absolute w-24 top-1"
-                backgroundColor="transparent"
               />
             </a>
           </div>
@@ -39,7 +38,7 @@ export default function Navbar() {
           </nav>
           <div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
             <button className="focus:bg-transparent">
-              <img src={downloadBtn} />
+              <Image src={downloadBtn} />
             </button>
             {/* <a
                 href="#"
