@@ -9,7 +9,7 @@
 }
 
 .button-bg {
-  background-image: url("../images/button-bg.svg");
+  background-image: url("/button-bg.svg");
   @apply bg-contain bg-no-repeat bg-center;
 }
 
