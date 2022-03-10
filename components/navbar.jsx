@@ -6,7 +6,7 @@ import mobileLogoImage from "../images/mobile-logo.svg";
 
 export default function Navbar() {
   return (
-    <div className="sticky mx-auto bg-white shadow">
+    <div className="sticky mx-auto shadow bg-gray-50">
       <div className="px-4 mx-auto max-w-7xl sm:px-6">
         <div className="flex items-center justify-center py-4 md:justify-start md:space-x-10">
           <div className="md:hidden">

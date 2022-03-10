@@ -7,7 +7,7 @@ import Details from "../components/details";
 
 export default function Home() {
   return (
-    <div className="relative bg-gray-50">
+    <div className="relative">
       <Head>
         <title>Freeze 4 Peace</title>
         <meta name="description" content="Freeze for peace" />
