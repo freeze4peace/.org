@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import Cards from "../components/cards";
 import Footer from "../components/footer";
 import Details from "../components/details";
+import Contact from "../components/contact";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <Cards />
       <Details />
+      <Contact />
       <Footer />
     </div>
   );
