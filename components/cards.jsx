@@ -1,4 +1,9 @@
 import StatBlock from "./statBlock";
+
+import fuelIcon from "../images/fuel_icon.png";
+import bulletsIcon from "../images/bullets_icon.png";
+import conflictIcon from "../images/conflict_icon.png";
+
 export default function Cards() {
   return (
     <div>
@@ -12,15 +17,18 @@ export default function Cards() {
                   <StatBlock
                     statText="~600B"
                     title="Euro Daily Spending"
+                    icon={fuelIcon}
                     text="each day by the West to Russia for fossil fuel imports"
                   ></StatBlock>
                   <StatBlock
                     statText="~5-10"
+                    icon={bulletsIcon}
                     title="Pieces of Ammunition"
                     text="per hour are payed for by the average western household's heating"
                   ></StatBlock>
                   <StatBlock
                     statText="13th"
+                    icon={conflictIcon}
                     title="Day of the Invasion"
                     text="since Putin decided to attack a sovereign state and start this war"
                   ></StatBlock>
