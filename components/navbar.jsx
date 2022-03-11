@@ -1,30 +1,24 @@
-// import { StaticImage } from "gatsby-plugin-image";
 import Image from "next/image";
-import downloadBtn from "../images/download-btn.png";
+import arrowIcon from "../images/arrow-icon.svg";
 import logoImage from "../images/logo.svg";
 import mobileLogoImage from "../images/mobile-logo.svg";
+import Button from "./button";
 
 export default function Navbar() {
   return (
     <div className="sticky mx-auto shadow bg-gray-50">
-      <div className="px-4 mx-auto max-w-7xl sm:px-6">
+      <div className="px-4 py-20 mx-auto md:py-6 max-w-7xl sm:px-6">
         <div className="flex items-center justify-center py-4 md:justify-start md:space-x-10">
-          <div className="md:hidden">
-            <Image
-              src={mobileLogoImage}
-              alt="Freeze for peace logo"
-              className="absolute w-48 top-1"
-            />
+          <div className="absolute w-80 md:hidden top-1">
+            <Image src={mobileLogoImage} alt="Freeze for peace logo" />
           </div>
 
           <div className="justify-start hidden md:flex md:w-0 md:flex-1">
             <a href="#">
               <span className="sr-only">Freeze for peace</span>
-              <Image
-                src={logoImage}
-                alt="Freeze for peace logo"
-                className="absolute w-24 top-1"
-              />
+              <div className="absolute w-20 top-1">
+                <Image src={logoImage} alt="Freeze for peace logo" />
+              </div>
             </a>
           </div>
           {/* <div className="-my-2 -mr-2 md:hidden">
@@ -37,9 +31,10 @@ export default function Navbar() {
             Freeze for peace
           </nav>
           <div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
-            <button className="focus:bg-transparent">
+            <Button icon={arrowIcon} text="Download" />
+            {/* <button className="focus:bg-transparent">
               <Image src={downloadBtn} />
-            </button>
+            </button> */}
             {/* <a
                 href="#"
                 className="text-base font-medium text-gray-500 whitespace-nowrap hover:text-gray-900"

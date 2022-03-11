@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Cta({ icon, texts }) {
   return (
-    <div className="flex justify-center w-full space-x-12">
+    <div className="flex justify-center w-full space-x-12 cursor-pointer hover:drop-shadow-2xl hover:scale-105">
       <Image src={icon} alt="" />
       <div className="w-1/6 text-xl">
         <ul className="space-y-1 list-disc">

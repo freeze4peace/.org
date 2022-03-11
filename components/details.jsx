@@ -9,7 +9,7 @@ export default function Details() {
       <div className="flex items-center justify-center w-full pt-16 pb-20 mx-auto lg:w-1/2">
         <Image src={PutInImage} alt="PutIn" />
       </div>
-      <div className="flex items-center w-full px-4 mx-auto lg:w-1/2">
+      <div className="flex items-center w-full px-12 mx-auto lg:w-1/2">
         <div>
           <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
             <div className="text-3xl ">Let’s hit Putin where it hurts!</div>{" "}

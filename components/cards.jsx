@@ -15,7 +15,7 @@ export default function Cards() {
         <div className="py-12 mt-10 bg-gray-50 sm:pb-16">
           <div className="relative">
             <div className="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-              <dl className="lg:grid lg:grid-cols-3 lg:gap-2">
+              <dl className="space-y-8 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-2">
                 <StatBlock
                   statText="~600B"
                   title="Euro Daily Spending"

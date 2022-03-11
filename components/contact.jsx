@@ -6,7 +6,7 @@ import DriveLogo from "../images/drive_logo.png";
 
 export default function Contact() {
   return (
-    <main className="px-4 mx-auto py-14 lg:py-0 lg:flex lg:relative max-w-7xl recursive-font">
+    <main className="px-12 mx-auto py-14 lg:py-0 lg:flex lg:relative max-w-7xl recursive-font">
       {/* <div className="flex items-center justify-between w-full px-4 mx-auto lg:w-1/2"> */}
       <div className="flex items-center mx-auto lg:w-2/3">
         <div>
