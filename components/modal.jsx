@@ -60,6 +60,7 @@ export default function Modal({ open, setOpen, index }) {
                       href="https://fortune.com/2022/03/09/europe-wean-1-billion-russia-energy-habit/"
                       className="block overflow-hidden leading-loose text-white underline truncate"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       How Europe is trying to wean itself off its $1 billion a
                       day Russia energy habit
@@ -68,6 +69,7 @@ export default function Modal({ open, setOpen, index }) {
                       href="https://www.voanews.com/a/despite-sanctions-europe-continues-to-bankroll-russia-for-gas-oil/6465223.html"
                       className="block overflow-hidden leading-loose text-white underline truncate "
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Despite Sanctions, Europe Continues to Bankroll Russia for
                       Gas, Oil
