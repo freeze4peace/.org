@@ -3,7 +3,7 @@ import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { CheckIcon } from "@heroicons/react/outline";
 
-export default function Modal({ open, setOpen }) {
+export default function Modal({ open, setOpen, index }) {
   return (
     <Transition.Root show={open} as={Fragment}>
       <Dialog
@@ -40,37 +40,42 @@ export default function Modal({ open, setOpen }) {
             leaveFrom="opacity-100 translate-y-0 sm:scale-100"
             leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
           >
-            <div className="relative inline-block px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6">
-              <div>
-                <div className="flex items-center justify-center w-12 h-12 mx-auto bg-green-100 rounded-full">
-                  <CheckIcon
-                    className="w-6 h-6 text-green-600"
-                    aria-hidden="true"
-                  />
-                </div>
-                <div className="mt-3 text-center sm:mt-5">
-                  <Dialog.Title
-                    as="h3"
-                    className="text-lg font-medium leading-6 text-gray-900"
-                  >
-                    Payment successful
-                  </Dialog.Title>
-                  <div className="mt-2">
-                    <p className="text-sm text-gray-500">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Consequatur amet labore.
+            <div
+              className={
+                "relative inline-block overflow-hidden text-left " +
+                "align-bottom transition-all transform sm:my-8 sm:align-middle sm:max-w-xl w-full h-64 sm:h-48 "
+              }
+            >
+              <img src="/blue-bg.png" className="object-fill w-full h-full" />
+              <div className="absolute inset-0 mt-6 mb-6 ml-10 mr-10 overflow-y-auto overflow-x-clip">
+                {index == 0 ? (
+                  <div>
+                    <p>
+                      The UK and US decided to stop fossil fuel imports from
+                      Russia therefore the EU is the largest region bankrolling
+                      the ongoing war.
                     </p>
+                    Find sources below:
+                    <a
+                      href="https://fortune.com/2022/03/09/europe-wean-1-billion-russia-energy-habit/"
+                      className="block overflow-hidden leading-loose text-white underline truncate"
+                      target="_blank"
+                    >
+                      How Europe is trying to wean itself off its $1 billion a
+                      day Russia energy habit
+                    </a>
+                    <a
+                      href="https://www.voanews.com/a/despite-sanctions-europe-continues-to-bankroll-russia-for-gas-oil/6465223.html"
+                      className="block overflow-hidden leading-loose text-white underline truncate "
+                      target="_blank"
+                    >
+                      Despite Sanctions, Europe Continues to Bankroll Russia for
+                      Gas, Oil
+                    </a>
                   </div>
-                </div>
-              </div>
-              <div className="mt-5 sm:mt-6">
-                <button
-                  type="button"
-                  className="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm"
-                  onClick={() => setOpen(false)}
-                >
-                  Go back to dashboard
-                </button>
+                ) : undefined}
+                {index == 1 ? <div>TWO</div> : undefined}
+                {index == 2 ? <div>THREE</div> : undefined}
               </div>
             </div>
           </Transition.Child>

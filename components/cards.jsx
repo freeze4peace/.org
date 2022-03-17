@@ -11,6 +11,7 @@ export default function Cards() {
   const daysFromStart = Math.floor(Difference_In_Time / (1000 * 3600 * 24));
 
   const [open, setOpen] = useState(false);
+  const [modalIndex, setModalIndex] = useState(0);
 
   return (
     <div>
@@ -24,23 +25,32 @@ export default function Cards() {
                   title="Euro Daily Spending"
                   icon={fuelIcon}
                   text="each day by the West to Russia for fossil fuel imports"
-                  onClick={() => setOpen(true)}
+                  onClick={() => {
+                    setModalIndex(0);
+                    setOpen(true);
+                  }}
                 />
                 <StatBlock
                   statText="~5-10"
                   icon={bulletsIcon}
                   title="Pieces of Ammunition"
                   text="per hour are payed for by the average western household's heating"
-                  onClick={() => setOpen(true)}
+                  onClick={() => {
+                    setModalIndex(1);
+                    setOpen(true);
+                  }}
                 />
                 <StatBlock
                   statText={`${daysFromStart}th`}
                   icon={conflictIcon}
                   title="Day of the Invasion"
                   text="since Putin decided to attack a sovereign state and start this war"
-                  onClick={() => setOpen(true)}
+                  onClick={() => {
+                    setModalIndex(2);
+                    setOpen(true);
+                  }}
                 />
-                <Modal open={open} setOpen={setOpen} />
+                <Modal open={open} setOpen={setOpen} index={modalIndex} />
               </dl>
             </div>
           </div>
