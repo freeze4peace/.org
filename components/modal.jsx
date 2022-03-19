@@ -76,7 +76,30 @@ export default function Modal({ open, setOpen, index }) {
                     </a>
                   </div>
                 ) : undefined}
-                {index == 1 ? <div>TWO</div> : undefined}
+                {index == 1 ? <div>
+                    <p>
+                      Based on the average households yearly expenses in the US, UK and EU divided by 12 month, then 30 days and last 24 hours we can calculate the hourly expanses.  Multiplied by the average cost of Russian AK-47 ammunition we get bullets per hour.  
+                    </p>
+                    Find sources below:
+                    <a
+                      href="https://fortune.com/2022/03/09/europe-wean-1-billion-russia-energy-habit/"
+                      className="block overflow-hidden leading-loose text-white underline truncate"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      How Europe is trying to wean itself off its $1 billion a
+                      day Russia energy habit
+                    </a>
+                    <a
+                      href="https://www.voanews.com/a/despite-sanctions-europe-continues-to-bankroll-russia-for-gas-oil/6465223.html"
+                      className="block overflow-hidden leading-loose text-white underline truncate "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Despite Sanctions, Europe Continues to Bankroll Russia for
+                      Gas, Oil
+                    </a>
+                  </div> : undefined}
                 {index == 2 ? <div>THREE</div> : undefined}
               </div>
             </div>
