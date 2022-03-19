@@ -40,10 +40,23 @@ export default function Contact() {
         </div>
       </div>
       <div className="py-16 space-y-8 lg:py-0 lg:w-1/3">
-        <Cta icon={TelegramLogo} texts={["Chat", "Share", "Update"]} />
-        <Cta icon={DiscordLogo} texts={["Plan", "Organise", "Communicate"]} />
-        <Cta icon={GithubLogo} texts={["Improve", "Extend", "Translate"]} />
-        <Cta icon={DriveLogo} texts={["Store", "Download", "Collaborate"]} />
+        <Cta 
+        icon={TelegramLogo} 
+        texts={["Chat", "Share", "Update"]} 
+        link="https://t.me/+VsjGFjFYTOVlZGM6"
+        />
+        <Cta 
+        icon={DiscordLogo} 
+        texts={["Plan", "Organise", "Communicate"]} 
+        link="https://discord.gg/tdY4JZEf"/>
+        <Cta 
+        icon={GithubLogo} 
+        texts={["Improve", "Extend", "Translate"]} 
+        link="https://github.com/radumpopescu/freezeforpeace"/>
+        <Cta 
+        icon={DriveLogo} 
+        texts={["Store", "Download", "Collaborate"]} 
+        link="https://drive.google.com/drive/folders/1-G-ISVbouKwmb9Bjy7xGK3yZXL-MJ_KC?usp=sharing"/>
       </div>
       {/* </div> */}
     </main>

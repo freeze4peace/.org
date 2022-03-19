@@ -19,17 +19,17 @@ export default function Details() {
           </h1>
           <div className="pt-6 space-y-4">
             <p>
-              Russias most important exports by more then 100B to the next
-              highest categories grains and timber are its mineral fuels: oil,
+              Russia's most important exports by more then 100B compared to the next
+              highest categories (grains and timber) are its mineral fuels: oil,
               gas & coal.
             </p>
             <p>
-              They add up to more then 60% of the nations income and are
-              therefore a main driver of Putins war efforts.
+              They add up to at least 60% of the nations income and are
+              therefore a main driver of Putin's war efforts.
             </p>
             <p>
               Help us quickly spread the word to as many households as possible
-              and freeze for peace together.
+              to freeze for peace together.
             </p>
           </div>
         </div>

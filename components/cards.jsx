@@ -10,6 +10,18 @@ export default function Cards() {
   const Difference_In_Time = new Date().getTime() - dateWarStarted.getTime();
   const daysFromStart = Math.floor(Difference_In_Time / (1000 * 3600 * 24));
 
+  const nth = function(d) {
+    const dString = String(d);
+    const last = +dString.slice(-2);
+    if (last > 3 && last < 21) return 'th';
+    switch (last % 10) {
+      case 1:  return "st";
+      case 2:  return "nd";
+      case 3:  return "rd";
+      default: return "th";
+    }
+  }
+
   const [open, setOpen] = useState(false);
   const [modalIndex, setModalIndex] = useState(0);
 
@@ -21,19 +33,19 @@ export default function Cards() {
             <div className="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
               <dl className="space-y-8 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-2">
                 <StatBlock
-                  statText="~600B"
-                  title="Euro Daily Spending"
+                  statText="~1bln"
+                  title="Dollar Daily Spending"
                   icon={fuelIcon}
-                  text="each day by the West to Russia for fossil fuel imports"
+                  text="By the EU alone for Russian fossil fuel imports"
                   onClick={() => {
                     setModalIndex(0);
                     setOpen(true);
                   }}
                 />
                 <StatBlock
-                  statText="~5-10"
+                  statText="min. 1"
                   icon={bulletsIcon}
-                  title="Pieces of Ammunition"
+                  title="Russian AK-47 Bullet"
                   text="per hour are payed for by the average western household's heating"
                   onClick={() => {
                     setModalIndex(1);
@@ -41,10 +53,10 @@ export default function Cards() {
                   }}
                 />
                 <StatBlock
-                  statText={`${daysFromStart}th`}
+                  statText={`${daysFromStart}${nth(daysFromStart)}`}
                   icon={conflictIcon}
                   title="Day of the Invasion"
-                  text="since Putin decided to attack a sovereign state and start this war"
+                  text="since Putin decided to attack a sovereign state unprovoked and start his war"
                   onClick={() => {
                     setModalIndex(2);
                     setOpen(true);

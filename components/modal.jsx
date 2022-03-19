@@ -51,11 +51,10 @@ export default function Modal({ open, setOpen, index }) {
                 {index == 0 ? (
                   <div>
                     <p>
-                      The UK and US decided to stop fossil fuel imports from
-                      Russia therefore the EU is the largest region bankrolling
-                      the ongoing war.
+                      The UK and US already decided to stop most of their already small fossil fuel imports from
+                      Russia leaving the EU as the largest region bankrolling the ongoing war.
                     </p>
-                    Find sources below:
+                    <br />
                     <a
                       href="https://fortune.com/2022/03/09/europe-wean-1-billion-russia-energy-habit/"
                       className="block overflow-hidden leading-loose text-white underline truncate"
@@ -78,29 +77,66 @@ export default function Modal({ open, setOpen, index }) {
                 ) : undefined}
                 {index == 1 ? <div>
                     <p>
-                      Based on the average households yearly expenses in the US, UK and EU divided by 12 month, then 30 days and last 24 hours we can calculate the hourly expanses.  Multiplied by the average cost of Russian AK-47 ammunition we get bullets per hour.  
+                      Based on the average households yearly expenses in the West broken down to the hourly rate (0.40¢) 
+                      divided by the average cost of Russian AK-47 round (0.35¢).  
                     </p>
-                    Find sources below:
+                    <br />
                     <a
-                      href="https://fortune.com/2022/03/09/europe-wean-1-billion-russia-energy-habit/"
+                      href="https://www.luckygunner.com/rifle/7.62x39mm-ammo?dir=asc&order=cost_per_round"
                       className="block overflow-hidden leading-loose text-white underline truncate"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      How Europe is trying to wean itself off its $1 billion a
-                      day Russia energy habit
+                      Ammunition Shop 1 (Consumer Prices)
                     </a>
                     <a
-                      href="https://www.voanews.com/a/despite-sanctions-europe-continues-to-bankroll-russia-for-gas-oil/6465223.html"
+                      href="https://atlanticfirearms.com/russian-ak-47-ammunition-7-62x39mm-123gr-fmj-1000-round-case"
                       className="block overflow-hidden leading-loose text-white underline truncate "
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Despite Sanctions, Europe Continues to Bankroll Russia for
-                      Gas, Oil
+                      Ammunition Shop 2 (Consumer Prices)
+                    </a>
+                    <a
+                      href="https://www.reuters.com/business/energy/euro-zone-consumers-shock-power-bills-soar-2022-01-18/"
+                      className="block overflow-hidden leading-loose text-white underline truncate "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Euro zone consumers in for a shock as power bills soar
+                    </a>
+                    <a
+                      href="https://money.usnews.com/money/personal-finance/spending/articles/how-to-estimate-utility-costs"
+                      className="block overflow-hidden leading-loose text-white underline truncate "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      (US) With Electric Bills Going Up, Here's How to Estimate Your Utility Costs
+                    </a>
+                    <a
+                      href="https://www.marca.com/en/lifestyle/2021/12/01/61a73de2e2704e88688b456f.html"
+                      className="block overflow-hidden leading-loose text-white underline truncate "
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Average Heating Bill UK: How much is it and how to save money?
                     </a>
                   </div> : undefined}
-                {index == 2 ? <div>THREE</div> : undefined}
+                {index == 2 ? <div>
+                    <p>
+                      After 8 years of ongoing war on the eastern front and ramping up of propaganda in his own country 
+                      Mr Putin gave the order on 24th of February 2022 to invade Ukraine.
+                    </p>
+                    <br />
+                    <a
+                      href="https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine"
+                      className="block overflow-hidden leading-loose text-white underline truncate"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      2022 Russian invasion of Ukraine
+                    </a>
+                  </div> : undefined}
               </div>
             </div>
           </Transition.Child>
