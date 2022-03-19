@@ -13,7 +13,7 @@ export default function Contact() {
           <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
             <div className="text-3xl ">We will sticker it to the man!</div>
             <div className="text-3xl text-blue-500 ">
-              Collective, global, decentralised
+              Collective, global, decentralized
             </div>
           </h1>
           <div className="pt-6 space-y-4">
@@ -47,7 +47,7 @@ export default function Contact() {
         />
         <Cta 
         icon={DiscordLogo} 
-        texts={["Plan", "Organise", "Communicate"]} 
+        texts={["Plan", "Organize", "Communicate"]} 
         link="https://discord.gg/tdY4JZEf"/>
         <Cta 
         icon={GithubLogo} 
