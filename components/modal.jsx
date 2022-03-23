@@ -51,8 +51,9 @@ export default function Modal({ open, setOpen, index }) {
                 {index == 0 ? (
                   <div>
                     <p>
-                      The UK and US already decided to stop most of their already small fossil fuel imports from
-                      Russia leaving the EU as the largest region bankrolling the ongoing war.
+                      The UK and US already decided to stop most of their
+                      already small fossil fuel imports from Russia leaving the
+                      EU as the largest region bankrolling the ongoing war.
                     </p>
                     <br />
                     <a
@@ -75,10 +76,12 @@ export default function Modal({ open, setOpen, index }) {
                     </a>
                   </div>
                 ) : undefined}
-                {index == 1 ? <div>
+                {index == 1 ? (
+                  <div>
                     <p>
-                      Based on the average households yearly expenses in the West broken down to the hourly rate (0.40¢) 
-                      divided by the average cost of Russian AK-47 round (0.35¢).  
+                      Based on the average households yearly expenses in the
+                      West broken down to the hourly rate (0.40¢) divided by the
+                      average cost of Russian AK-47 round (0.35¢).
                     </p>
                     <br />
                     <a
@@ -111,7 +114,8 @@ export default function Modal({ open, setOpen, index }) {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      (US) With Electric Bills Going Up, Here's How to Estimate Your Utility Costs
+                      (US) With Electric Bills Going Up, Here&apos;s How to
+                      Estimate Your Utility Costs
                     </a>
                     <a
                       href="https://www.marca.com/en/lifestyle/2021/12/01/61a73de2e2704e88688b456f.html"
@@ -119,13 +123,17 @@ export default function Modal({ open, setOpen, index }) {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Average Heating Bill UK: How much is it and how to save money?
+                      Average Heating Bill UK: How much is it and how to save
+                      money?
                     </a>
-                  </div> : undefined}
-                {index == 2 ? <div>
+                  </div>
+                ) : undefined}
+                {index == 2 ? (
+                  <div>
                     <p>
-                      After 8 years of ongoing war on the eastern front and ramping up of propaganda in his own country 
-                      Mr Putin gave the order on 24th of February 2022 to invade Ukraine.
+                      After 8 years of ongoing war on the eastern front and
+                      ramping up of propaganda in his own country Mr Putin gave
+                      the order on 24th of February 2022 to invade Ukraine.
                     </p>
                     <br />
                     <a
@@ -136,7 +144,8 @@ export default function Modal({ open, setOpen, index }) {
                     >
                       2022 Russian invasion of Ukraine
                     </a>
-                  </div> : undefined}
+                  </div>
+                ) : undefined}
               </div>
             </div>
           </Transition.Child>

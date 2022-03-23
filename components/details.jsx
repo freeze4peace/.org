@@ -12,20 +12,22 @@ export default function Details() {
       <div className="flex items-center w-full px-12 mx-auto lg:w-1/2">
         <div>
           <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
-            <div className="text-3xl ">Let’s hit Putin where it hurts!</div>{" "}
+            <div className="text-3xl ">
+              Let&apos;s hit Putin where it hurts!
+            </div>{" "}
             <div className="text-3xl text-blue-500 ">
               right in the fossil fuels.
             </div>
           </h1>
           <div className="pt-6 space-y-4">
             <p>
-              Russia's most important exports by more then 100B compared to the next
-              highest categories (grains and timber) are its mineral fuels: oil,
-              gas & coal.
+              Russia&apos;s most important exports by more then 100B compared to
+              the next highest categories (grains and timber) are its mineral
+              fuels: oil, gas & coal.
             </p>
             <p>
               They add up to at least 60% of the nations income and are
-              therefore a main driver of Putin's war efforts.
+              therefore a main driver of Putin&apos;s war efforts.
             </p>
             <p>
               Help us quickly spread the word to as many households as possible
