@@ -43,10 +43,10 @@ export default function Cards() {
                   }}
                 />
                 <StatBlock
-                  statText="min. 1"
+                  statText="> 24"
                   icon={bulletsIcon}
-                  title="Russian AK-47 Bullet"
-                  text="per hour are payed for by the average western household's heating"
+                  title="Russian AK-47 Bullets"
+                  text="per day are payed for by the average western household's heating"
                   onClick={() => {
                     setModalIndex(1);
                     setOpen(true);
