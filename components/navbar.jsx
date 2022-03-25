@@ -31,7 +31,9 @@ export default function Navbar() {
             Freeze for peace
           </nav>
           <div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
-            <Button icon={arrowIcon} text="Download" />
+            <a href="#help">
+              <Button icon={arrowIcon} text="How to help" />
+            </a>
             {/* <button className="focus:bg-transparent">
               <Image src={downloadBtn} />
             </button> */}
