@@ -5,7 +5,7 @@ import InfoIcon from "../images/info-icon.svg";
 export default function StatBlock({ statText, icon, title, text, onClick }) {
   return (
     <div
-      className="flex flex-col items-center cursor-pointer recursive-font hover:drop-shadow-2xl hover:scale-105"
+      className="flex flex-col items-center justify-between cursor-pointer recursive-font hover:drop-shadow-2xl hover:scale-105"
       onClick={() => (typeof onClick === "function" ? onClick() : null)}
     >
       <div className="flex items-center justify-between pl-6 pr-12 text-3xl font-bold text-white bg-center bg-no-repeat bg-contain h-36 w-80 bg-yellow-btn">
