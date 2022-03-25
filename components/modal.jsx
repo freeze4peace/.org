@@ -43,7 +43,7 @@ export default function Modal({ open, setOpen, index }) {
             <div
               className={
                 "relative inline-block overflow-hidden text-left " +
-                "align-bottom transition-all transform sm:my-8 sm:align-middle sm:max-w-xl w-full h-64 sm:h-48 "
+                "align-bottom transition-all transform sm:my-8 sm:align-middle sm:max-w-2xl w-full h-[24rem] sm:h-96"
               }
             >
               <img src="/blue-bg.png" className="object-fill w-full h-full" />
@@ -58,7 +58,7 @@ export default function Modal({ open, setOpen, index }) {
                     <br />
                     <a
                       href="https://fortune.com/2022/03/09/europe-wean-1-billion-russia-energy-habit/"
-                      className="block overflow-hidden leading-loose text-white underline truncate"
+                      className="block overflow-hidden leading-loose text-white underline truncate outline-none"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -67,7 +67,7 @@ export default function Modal({ open, setOpen, index }) {
                     </a>
                     <a
                       href="https://www.voanews.com/a/despite-sanctions-europe-continues-to-bankroll-russia-for-gas-oil/6465223.html"
-                      className="block overflow-hidden leading-loose text-white underline truncate "
+                      className="block overflow-hidden leading-loose text-white underline truncate outline-none"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -86,7 +86,7 @@ export default function Modal({ open, setOpen, index }) {
                     <br />
                     <a
                       href="https://www.luckygunner.com/rifle/7.62x39mm-ammo?dir=asc&order=cost_per_round"
-                      className="block overflow-hidden leading-loose text-white underline truncate"
+                      className="block overflow-hidden leading-loose text-white underline truncate outline-none"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -94,7 +94,7 @@ export default function Modal({ open, setOpen, index }) {
                     </a>
                     <a
                       href="https://atlanticfirearms.com/russian-ak-47-ammunition-7-62x39mm-123gr-fmj-1000-round-case"
-                      className="block overflow-hidden leading-loose text-white underline truncate "
+                      className="block overflow-hidden leading-loose text-white underline truncate outline-none"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -102,7 +102,7 @@ export default function Modal({ open, setOpen, index }) {
                     </a>
                     <a
                       href="https://www.reuters.com/business/energy/euro-zone-consumers-shock-power-bills-soar-2022-01-18/"
-                      className="block overflow-hidden leading-loose text-white underline truncate "
+                      className="block overflow-hidden leading-loose text-white underline truncate outline-none"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -110,7 +110,7 @@ export default function Modal({ open, setOpen, index }) {
                     </a>
                     <a
                       href="https://money.usnews.com/money/personal-finance/spending/articles/how-to-estimate-utility-costs"
-                      className="block overflow-hidden leading-loose text-white underline truncate "
+                      className="block overflow-hidden leading-loose text-white underline truncate outline-none"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -119,7 +119,7 @@ export default function Modal({ open, setOpen, index }) {
                     </a>
                     <a
                       href="https://www.marca.com/en/lifestyle/2021/12/01/61a73de2e2704e88688b456f.html"
-                      className="block overflow-hidden leading-loose text-white underline truncate "
+                      className="block overflow-hidden leading-loose text-white underline truncate outline-none"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -138,7 +138,7 @@ export default function Modal({ open, setOpen, index }) {
                     <br />
                     <a
                       href="https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine"
-                      className="block overflow-hidden leading-loose text-white underline truncate"
+                      className="block overflow-hidden leading-loose text-white underline truncate outline-none"
                       target="_blank"
                       rel="noreferrer"
                     >
