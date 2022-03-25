@@ -3,10 +3,8 @@ import PutInImage from "../images/Put in.png";
 
 export default function Details() {
   return (
-    <main className="mx-auto lg:flex lg:relative max-w-7xl recursive-font">
-      {/* <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-      </div> */}
-      <div className="flex items-center justify-center w-full pt-16 pb-20 mx-auto lg:w-1/2">
+    <main className="flex flex-col mx-auto sm:flex-row lg:relative max-w-7xl recursive-font">
+      <div className="flex items-center justify-center order-last w-full pt-16 pb-20 mx-auto lg:w-1/2 sm:order-none">
         <Image src={PutInImage} alt="PutIn" />
       </div>
       <div className="flex items-center w-full px-12 mx-auto lg:w-1/2">
