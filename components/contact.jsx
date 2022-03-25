@@ -6,7 +6,10 @@ import DriveLogo from "../images/drive_logo.png";
 
 export default function Contact() {
   return (
-    <main className="px-12 mx-auto py-14 lg:py-0 lg:flex lg:relative max-w-7xl recursive-font">
+    <main
+      id="help"
+      className="px-12 mx-auto py-14 lg:py-0 lg:flex lg:relative max-w-7xl recursive-font"
+    >
       {/* <div className="flex items-center justify-between w-full px-4 mx-auto lg:w-1/2"> */}
       <div className="flex items-center mx-auto lg:w-2/3">
         <div>
@@ -40,23 +43,26 @@ export default function Contact() {
         </div>
       </div>
       <div className="py-16 space-y-8 lg:py-0 lg:w-1/3">
-        <Cta 
-        icon={TelegramLogo} 
-        texts={["Chat", "Share", "Update"]} 
-        link="https://t.me/+VsjGFjFYTOVlZGM6"
+        <Cta
+          icon={TelegramLogo}
+          texts={["Chat", "Share", "Update"]}
+          link="https://t.me/+VsjGFjFYTOVlZGM6"
         />
-        <Cta 
-        icon={DiscordLogo} 
-        texts={["Plan", "Organize", "Communicate"]} 
-        link="https://discord.gg/tdY4JZEf"/>
-        <Cta 
-        icon={GithubLogo} 
-        texts={["Improve", "Extend", "Translate"]} 
-        link="https://github.com/radumpopescu/freezeforpeace"/>
-        <Cta 
-        icon={DriveLogo} 
-        texts={["Store", "Download", "Collaborate"]} 
-        link="https://drive.google.com/drive/folders/1-G-ISVbouKwmb9Bjy7xGK3yZXL-MJ_KC?usp=sharing"/>
+        <Cta
+          icon={DiscordLogo}
+          texts={["Plan", "Organize", "Communicate"]}
+          link="https://discord.gg/tdY4JZEf"
+        />
+        <Cta
+          icon={GithubLogo}
+          texts={["Improve", "Extend", "Translate"]}
+          link="https://github.com/radumpopescu/freezeforpeace"
+        />
+        <Cta
+          icon={DriveLogo}
+          texts={["Store", "Download", "Collaborate"]}
+          link="https://drive.google.com/drive/folders/1-G-ISVbouKwmb9Bjy7xGK3yZXL-MJ_KC?usp=sharing"
+        />
       </div>
       {/* </div> */}
     </main>
