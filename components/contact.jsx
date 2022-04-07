@@ -51,12 +51,12 @@ export default function Contact() {
         <Cta
           icon={DiscordLogo}
           texts={["Plan", "Organize", "Communicate"]}
-          link="https://discord.gg/tdY4JZEf"
+          link="https://discord.com/invite/TxFPGpeRMB"
         />
         <Cta
           icon={GithubLogo}
           texts={["Improve", "Extend", "Translate"]}
-          link="https://github.com/radumpopescu/freezeforpeace"
+          link="https://github.com/freeze4peace/.org"
         />
         <Cta
           icon={DriveLogo}
